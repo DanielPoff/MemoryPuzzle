@@ -22,9 +22,15 @@ BOARDWIDTH and BOARDHEIGHT change the amount of tiles on the canvas. This must b
 
 Adding shapes and colors can be a hassle but is relatively simple.
 To add a shape, create a variable like so:
+
   SQUARE = 'square'
+  
 Then, add it to the "SHAPES" list.
+
 For colors, they can be defined by RGB hues or the correct name. Example:
+
   WHITE = (255, 255, 255)
+  
   Or, you can use
+  
   WHITE = WHITE
